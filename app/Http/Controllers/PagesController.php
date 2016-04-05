@@ -8,6 +8,8 @@ class PagesController extends Controller {
     // {
     //     return view('user.profile', ['user' => User::findOrFail($id)]);
     // }
+
+
 	public function getIndex(){
 		$title="Portfolio - Dilasha";
 		return view('welcome')->with('title',$title);
@@ -30,5 +32,10 @@ class PagesController extends Controller {
 	public function getBlog(){
 		$isRegistered=false;
 		return view('blog')->with('isRegistered',$isRegistered);
+	}
+
+	public function getHome(){
+		$isRegistered=false;
+		return view('home');
 	}
 }

@@ -32,4 +32,9 @@ Route::get('blog', [
     'as' => 'blog', 'uses' => 'PagesController@getBlog'
 ]);
 
+
+Route::get('home', [
+    'as' => 'home', 'uses' => 'PagesController@getHome'
+]);
+
 Route::resource('qualification','QualificationController');

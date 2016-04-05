@@ -2,6 +2,12 @@
 <html>
 <head>
 	<title>@yield('title')</title>
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/normalize.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/skeleton.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/navigation.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/style.css') }}" />
+
+	<script type="text/javascript" src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
 </head>
 <body>
 	<div class="container">

@@ -1,7 +1,9 @@
-<ul>
-	<li>Home</li>
-	<li>Works</li>
-	<li>Resume</li>
-	<li>Contact</li>
-	<li>Blog</li>
-</ul>
+<nav class="column two-thirds">
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">Work</a></li>
+		<li><a href="">Resume</a></li>
+		<li><a href="">Contact</a></li>
+		<li><a href="">Blog</a></li>
+	</ul>
+</nav>
